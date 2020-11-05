@@ -19,6 +19,7 @@ public abstract class BasePage {
 
         List<WebElement> webElementList = driver.findElements(By.xpath(xpath));
         return webElementList.size() > 0;
+
     }
 
     public void clickElementByXpath(String xpath) {

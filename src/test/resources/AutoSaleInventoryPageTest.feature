@@ -1,7 +1,7 @@
 Feature: Rightwayautosale Inventory page tests
 
   Background:
-    Given User navigates to "https://www.rightwayautosale.com/inventory " page
+    Given User navigates to "https://www.rightwayautosale.com/inventory" page
 
   Scenario Outline: Verifying the menu bar by years test
     When User clicks on the <checking_Year> of the car
